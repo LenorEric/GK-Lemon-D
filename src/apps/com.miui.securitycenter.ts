@@ -61,7 +61,7 @@ export default defineGkdApp({
     // },
     {
       key: 13,
-      name: '功能类-电量已低于20%',
+      name: '功能类-低电量提醒',
       desc: '点击[知道了]',
       rules: [
         {
