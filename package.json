@@ -5,7 +5,7 @@
   "gkd": {
     "outDir": "dist",
     "file": "GK-LEMON-D.json5",
-    "versionFile": "GK-LEMON-D.version.json5",
+    "versionFile": "GK-LEMON-D.version.json5"
   },
   "scripts": {
     "postinstall": "simple-git-hooks",
