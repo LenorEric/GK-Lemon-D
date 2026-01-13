@@ -18,8 +18,8 @@ apps.forEach((appConfig) => {
 export default defineGkdSubscription({
   id: 250,
   name: 'GK-LEMON-D',
-  version: 0,
-  author: '偷来的',
+  version: 1,
+  author: 'Lenor',
   checkUpdateUrl: './GK-LEMON-D.version.json5',
   supportUri: '',
   categories,
