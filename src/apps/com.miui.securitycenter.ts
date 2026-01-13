@@ -84,7 +84,7 @@ export default defineGkdApp({
         {
           key: 0,
           matches: [
-            '[text="我已知晓可能存在的风险，并自愿承担可能导致的后果"]',
+            '[text="I\'m aware of the possible risks"]',
             '@[vid="check_box"][checked=false]',
           ],
           exampleUrls:
@@ -97,7 +97,7 @@ export default defineGkdApp({
         {
           preKeys: [0],
           key: 1,
-          matches: '[text="确定"]',
+          matches: '[text="OK"]',
           exampleUrls:
             'https://m.gkd.li/57941037/1f2a118a-db2a-448d-a95d-f10d746b72e3',
           snapshotUrls: [
