@@ -59,18 +59,18 @@ export default defineGkdApp({
     //     },
     //   ],
     // },
-    // {
-    //   key: 13,
-    //   name: '功能类-电量已低于20%',
-    //   desc: '点击[知道了]',
-    //   rules: [
-    //     {
-    //       fastQuery: true,
-    //       matches: '@[text="知道了"] + [text="省电模式"]',
-    //       snapshotUrls: 'https://i.gkd.li/i/14468423',
-    //     },
-    //   ],
-    // },
+    {
+      key: 13,
+      name: '功能类-电量已低于20%',
+      desc: '点击[知道了]',
+      rules: [
+        {
+          fastQuery: true,
+          matches: '@[text="Got it"] + [text="Battery saver"]',
+          snapshotUrls: 'https://i.gkd.li/i/14468423',
+        },
+      ],
+    },
     {
       key: 14,
       name: '功能类-高敏感权限自动确定',
