@@ -84,8 +84,8 @@ export default defineGkdApp({
         {
           key: 0,
           matches: [
-            '[text="I\'m aware of the possible risks"]',
             '@[vid="check_box"][checked=false]',
+            '[text="I\'m aware of the possible risks"]',
           ],
           exampleUrls:
             'https://m.gkd.li/57941037/e9672ccd-8dd1-4060-bdbe-52bb355d404f',
