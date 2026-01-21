@@ -12,6 +12,7 @@ export default defineGkdApp({
           activityIds: 'com.zhihu.android.app.ui.activity.AdDialogActivity',
           matches: '[id$="/ad_dialog_close"]',
           fastQuery: true,
+          snapshotUrls: 'https://i.gkd.li/i/24755227',
         },
       ],
     },
