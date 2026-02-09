@@ -23,7 +23,7 @@ export default defineGkdApp({
         {
           activityIds: 'com.zhihu.androidy.comment.ui.activity.CommentListActivity',
           matches: [
-            '[text="text="开启评论推送通知"]',
+            '[text="开启评论推送通知"]',
             '[vid="btn_close"]',
           ],
           fastQuery: true,
