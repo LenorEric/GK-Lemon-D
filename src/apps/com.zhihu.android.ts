@@ -21,11 +21,9 @@ export default defineGkdApp({
       name: '权限提示-评论通知权限',
       rules: [
         {
-          activityIds: 'com.zhihu.androidy.comment.ui.activity.CommentListActivity',
-          matches: [
-            '[text="开启评论推送通知"]',
-            '[vid="btn_close"]',
-          ],
+          activityIds:
+            'com.zhihu.androidy.comment.ui.activity.CommentListActivity',
+          matches: ['[text="开启评论推送通知"]', '[vid="btn_close"]'],
           fastQuery: true,
           snapshotUrls: 'https://i.gkd.li/i/24755227',
         },
