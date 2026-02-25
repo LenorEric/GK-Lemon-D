@@ -197,6 +197,12 @@ export default defineGkdApp({
             'View[text="关闭"] > @[visibleToUser=true][text="关闭"] <<n [vid="webview_bg"]',
           snapshotUrls: 'https://i.gkd.li/i/14955183',
         },
+        {
+          key: 4,
+          activityIds: 'com.zhihu.android.app.ui.activity.AdDialogActivity',
+          matches: '[id$="/ad_dialog_close"]',
+          fastQuery: true,
+        },
       ],
     },
     {
@@ -409,18 +415,6 @@ export default defineGkdApp({
     },
     {
       key: 20,
-      name: '全屏广告-弹窗广告',
-      rules: [
-        {
-          activityIds: 'com.zhihu.android.app.ui.activity.AdDialogActivity',
-          matches: '[id$="/ad_dialog_close"]',
-          fastQuery: true,
-          snapshotUrls: 'https://i.gkd.li/i/24755227',
-        },
-      ],
-    },
-    {
-      key: 2,
       name: '权限提示-评论通知权限',
       rules: [
         {
