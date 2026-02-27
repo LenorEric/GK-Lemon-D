@@ -420,7 +420,7 @@ export default defineGkdApp({
         {
           activityIds:
             'com.zhihu.androidy.comment.ui.activity.CommentListActivity',
-          matches: ['[text="开启评论推送通知"]', '[vid="btn_close"]'],
+          matches: 'ImageView[vid="btn_close"][clickable=true]',
           fastQuery: true,
           snapshotUrls: 'https://i.gkd.li/i/24755227',
         },

@@ -35,5 +35,21 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '全屏广告-弹窗广告',
+      desc: '点击关闭',
+      fastQuery: true,
+      matchTime: 10000,
+      actionMaximum: 1,
+      resetMatch: 'app',
+      rules: [
+        {
+          activityIds: 'cn.com.langeasy.LangEasyLexis.activity.MainActivity',
+          matches: '[id="cn.com.langeasy.LangEasyLexis:id/close_image_btn"]',
+          snapshotUrls: 'https://i.gkd.li/i/13759025',
+        },
+      ],
+    },
   ],
 });
