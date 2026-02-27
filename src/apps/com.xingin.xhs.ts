@@ -63,7 +63,7 @@ export default defineGkdApp({
             'com.xingin.authorization.NotificationAuthorizationTranslucentActivity',
           ],
           matches:
-            '@ImageView[clickable=true][visibleToUser=true] - LinearLayout > [text^="打开通知" || text^="Enable notifications"]',
+            '@ImageView[clickable=true][visibleToUser=true] - LinearLayout > [text*="通知" || text^="Enable notifications"]',
           snapshotUrls: [
             'https://i.gkd.li/i/13195753',
             'https://i.gkd.li/i/13222356',
