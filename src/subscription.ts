@@ -16,7 +16,7 @@ apps.forEach((appConfig) => {
 });
 
 export default defineGkdSubscription({
-  id: 249,
+  id: 250,
   name: 'GK-LEMON-D',
   version: 1,
   author: 'Lenor',
