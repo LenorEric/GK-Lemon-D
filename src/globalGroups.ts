@@ -168,9 +168,7 @@ export default defineGkdGlobalGroups([
     rules: [
       {
         key: 0,
-        matches: [
-          '[vid="ad_close"][clickable=true]',
-        ],
+        matches: ['[vid="ad_close"][clickable=true]'],
       },
     ],
   },
