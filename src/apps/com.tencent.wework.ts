@@ -10,12 +10,14 @@ export default defineGkdApp({
       activityIds: ['com.tencent.wework.common.web.JsWebActivity'],
       rules: [
         {
+          key: 0,
           action: 'clickCenter',
           matches: ["[text*='勤打卡'][clickable=true]"],
           fastQuery: true,
           actionMaximum: 1,
         },
         {
+          key: 1,
           action: 'clickCenter',
           matches: ['[text*="无效范围"] <<2 * -n [text="刷新"]'],
         },
