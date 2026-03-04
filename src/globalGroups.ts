@@ -18,7 +18,7 @@ export default defineGkdGlobalGroups([
         matches: ['[vid="ad_close"][clickable=true]'],
       },
     ],
-  },  
+  },
   {
     key: 1,
     name: '更新提示-安全全局',
