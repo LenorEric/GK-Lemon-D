@@ -8,15 +8,27 @@ export const POPUP_AD_ORDER = -7; // 弹窗广告
 export default defineGkdGlobalGroups([
   {
     key: 0,
-    name: '弹窗广告-全局',
+    name: '弹窗广告-安全全局',
     desc: '关闭应用的弹窗广告',
     order: POPUP_AD_ORDER,
     fastQuery: true,
-    disableIfAppGroupMatch: '弹窗广告',
     rules: [
       {
         key: 0,
         matches: ['[vid="ad_close"][clickable=true]'],
+      },
+    ],
+  },  
+  {
+    key: 1,
+    name: '更新提示-安全全局',
+    desc: '关闭应用的更新提示',
+    order: UPDATE_PROMPT_ORDER,
+    fastQuery: true,
+    rules: [
+      {
+        key: 0,
+        matches: ['[text="暂不升级"]'],
       },
     ],
   },
