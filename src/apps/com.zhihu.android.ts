@@ -34,9 +34,9 @@ export default defineGkdApp({
       name: '权限提示-热点通知权限',
       rules: [
         {
-          activityIds:
-            '.app.ui.activity.MainActivity',
-          matches: '[text="开启热点消息推送通知"] - ImageView[vid="btn_close"][clickable=true]',
+          activityIds: '.app.ui.activity.MainActivity',
+          matches:
+            '[text="开启热点消息推送通知"] - ImageView[vid="btn_close"][clickable=true]',
           fastQuery: true,
         },
       ],
