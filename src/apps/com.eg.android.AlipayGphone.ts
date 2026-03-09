@@ -7,6 +7,8 @@ export default defineGkdApp({
     {
       key: 0,
       name: '分段广告-菜鸟小程序免费领取',
+      actionMaximum: 1,
+      resetMatch: 'activity',
       rules: [
         {
           key: 0,
@@ -20,6 +22,8 @@ export default defineGkdApp({
     {
       key: 1,
       name: '局部广告-菜鸟小程序快递信息处遮挡红包广告',
+      actionMaximum: 1,
+      resetMatch: 'activity',
       rules: [
         {
           key: 0,
