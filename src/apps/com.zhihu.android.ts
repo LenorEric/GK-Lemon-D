@@ -22,9 +22,9 @@ export default defineGkdApp({
       rules: [
         {
           activityIds: [
-              'com.zhihu.androidy.comment.ui.activity.CommentListActivity',
-              '.feature.short_container_feature.ui.ShortContainerHostActivity',
-            ],
+            'com.zhihu.androidy.comment.ui.activity.CommentListActivity',
+            '.feature.short_container_feature.ui.ShortContainerHostActivity',
+          ],
           matches: 'ImageView[vid="btn_close"][clickable=true]',
           fastQuery: true,
           snapshotUrls: 'https://i.gkd.li/i/24755227',
