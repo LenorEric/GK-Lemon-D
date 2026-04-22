@@ -46,7 +46,7 @@ export default defineGkdApp({
     },
     {
       key: 4,
-      name: '全局广告-开启物流通知',
+      name: '全屏广告-开启物流通知',
       rules: [
         {
           key: 0,
