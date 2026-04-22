@@ -44,5 +44,17 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 4,
+      name: '全局广告-开启物流通知',
+      rules: [
+        {
+          key: 0,
+          activityIds:
+            'com.alibaba.android.ultron.vfw.weex2.highPerformance.widget.UltronTradeHybridActivity',
+          matches: '@Image + [text="及时获取物流消息"]',
+        },
+      ],
+    },
   ],
 });
