@@ -18,6 +18,8 @@ export default defineGkdApp({
             '.notification.NotificationAuthorizationTranslucentActivity',
             'com.xingin.matrix.notedetail.r10.comment.r10.NoteCommentActivity',
             'com.xingin.authorization.NotificationAuthorizationTranslucentActivity',
+            'com.xingin.matrix.notedetail.NoteDetailActivity',
+            'com.xingin.im.ui.activity.ChatActivity',
           ],
           matches:
             '@ImageView[clickable=true][visibleToUser=true] - LinearLayout > [text*="通知"]',

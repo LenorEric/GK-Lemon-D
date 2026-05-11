@@ -11,7 +11,10 @@ export default defineGkdApp({
       rules: [
         {
           fastQuery: true,
-          activityIds: '.main.MainActivityNew',
+          activityIds: [
+            '.main.MainActivityNew',
+            '.modules.carmanager.CarLinkStartActivity',
+          ],
           matches: '[vid="closeDialogIv"][visibleToUser=true]',
           exampleUrls: 'https://e.gkd.li/78f2afd2-de8b-46b5-ae6c-6df58862f00e',
           snapshotUrls: 'https://i.gkd.li/i/20939822',
