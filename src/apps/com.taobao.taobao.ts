@@ -56,5 +56,16 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 5,
+      name: '全屏广告-开启消息通知',
+      rules: [
+        {
+          key: 0,
+          activityIds: 'com.taobao.tao.TBMainActivity',
+          matches: '@Image + [text="不错过最新消息通知"]',
+        },
+      ],
+    },
   ],
 });
