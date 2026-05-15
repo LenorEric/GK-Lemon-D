@@ -15,11 +15,13 @@ export default defineGkdApp({
           key: 0,
           activityIds: [
             '.index.v2.IndexActivityV2',
+            'com.xingin.im.ui.activity.ChatActivity',
+            'com.xingin.comment.input.ui.NoteCommentActivity',
+            'com.xingin.matrix.notedetail.NoteDetailActivity',
+            'com.xingin.im.ui.message.msgcenter.MsgCenterActivity',
             '.notification.NotificationAuthorizationTranslucentActivity',
             'com.xingin.matrix.notedetail.r10.comment.r10.NoteCommentActivity',
             'com.xingin.authorization.NotificationAuthorizationTranslucentActivity',
-            'com.xingin.matrix.notedetail.NoteDetailActivity',
-            'com.xingin.im.ui.activity.ChatActivity',
           ],
           matches:
             '@ImageView[clickable=true][visibleToUser=true] - LinearLayout > [text*="通知"]',
