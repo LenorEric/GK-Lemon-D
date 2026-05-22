@@ -24,6 +24,7 @@ export default defineGkdApp({
           activityIds: [
             '.comment.ui.activity.CommentListActivity',
             '.feature.short_container_feature.ui.ShortContainerHostActivity',
+            '.comment.ui.activity.EdgeToEdgeCommentEditorActivity',
           ],
           matches: 'ImageView[vid="btn_close"][clickable=true]',
           fastQuery: true,
