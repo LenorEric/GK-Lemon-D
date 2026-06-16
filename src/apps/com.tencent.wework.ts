@@ -23,5 +23,18 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '功能类-自动登录',
+      activityIds: ['.enterprisemgr.controller.NormalEnterpriseInfoActivity'],
+      rules: [
+        {
+          key: 0,
+          matches: '[text="进入"][vid="ee4"]',
+          fastQuery: true,
+          actionMaximum: 1,
+        },
+      ],
+    },
   ],
 });
