@@ -30,7 +30,7 @@ export default defineGkdApp({
       rules: [
         {
           key: 0,
-          matches: '[text="进入"][vid="ee4"]',
+          matches: '[text="进入"][vid="ele"]',
           fastQuery: true,
           actionMaximum: 1,
         },
