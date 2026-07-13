@@ -34,5 +34,18 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '功能类-碰一碰自动点击直接支付',
+      rules: [
+        {
+          key: 0,
+          activityIds: ['com.alipay.mobile.quinox.SchemeLauncherActivity'],
+          fastQuery: true,
+          matches: '[vid="second_bt"][text="直接支付"]',
+          actionMaximum: 1,
+        },
+      ],
+    },
   ],
 });
