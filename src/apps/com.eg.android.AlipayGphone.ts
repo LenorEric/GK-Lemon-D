@@ -15,7 +15,8 @@ export default defineGkdApp({
           matchRoot: true,
           activityIds:
             'com.alipay.mobile.nebulax.xriver.activity.XRiverActivity',
-          matches: '@Image < View <2 View >3 [text="免费领取"]',
+          matches:
+            '@Image[top>getPrev(3).height.div(5)][bottom<getPrev(3).height.div(20).times(17)] < View <2 View >3 [text="免费领取"] <<n [parent=null]',
         },
       ],
     },
@@ -30,7 +31,8 @@ export default defineGkdApp({
           matchRoot: true,
           activityIds:
             'com.alipay.mobile.nebulax.xriver.activity.XRiverActivity',
-          matches: '@Image + [text="该包裹获得免单机会"]',
+          matches:
+            '@Image[top>getPrev(1).height.div(5)][bottom<getPrev(1).height.div(20).times(17)] + [text="该包裹获得免单机会"] <<n [parent=null]',
         },
       ],
     },
