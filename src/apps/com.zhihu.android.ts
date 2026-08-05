@@ -23,6 +23,7 @@ export default defineGkdApp({
         {
           activityIds: [
             '.comment.ui.activity.CommentListActivity',
+            '.comment.ui.activity.EdgeToEdgeCommentListActivity',
             '.feature.short_container_feature.ui.ShortContainerHostActivity',
             '.comment.ui.activity.EdgeToEdgeCommentEditorActivity',
           ],
