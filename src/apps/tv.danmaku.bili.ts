@@ -10,8 +10,10 @@ export default defineGkdApp({
       desc: '广告即将播放时取消',
       rules: [
         {
-          activityIds:
+          activityIds: [
             'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
+            'com.bilibili.ship.theseus.playlist.UnitedPlaylistActivity',
+          ],
           matches: 'TextView[text="后将展示广告"] + @TextView[text="取消"]',
         },
       ],
@@ -22,8 +24,10 @@ export default defineGkdApp({
       desc: '已经弹出后关闭',
       rules: [
         {
-          activityIds:
+          activityIds: [
             'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
+            'com.bilibili.ship.theseus.playlist.UnitedPlaylistActivity',
+          ],
           matches: '@View[clickable=true] > [desc="close"] + Button',
         },
       ],
