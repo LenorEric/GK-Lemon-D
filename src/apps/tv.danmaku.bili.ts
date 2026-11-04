@@ -14,7 +14,10 @@ export default defineGkdApp({
             'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
             'com.bilibili.ship.theseus.playlist.UnitedPlaylistActivity',
           ],
-          matches: 'TextView[text="后将展示广告"] + @TextView[text="取消"]',
+          matches: [
+            'TextView[text="后将展示广告"] + @TextView[text="取消"]',
+            'TextView[text="后将展示广告"] + @Button[text="取消"]',
+          ],
         },
       ],
     },
@@ -28,7 +31,10 @@ export default defineGkdApp({
             'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
             'com.bilibili.ship.theseus.playlist.UnitedPlaylistActivity',
           ],
-          matches: '@View[clickable=true] > [desc="close"] + Button',
+          matches: [
+            '@View[clickable=true] > [desc="close"] + Button',
+            '@View[clickable=true] > [desc="关闭暂停页"] + Button',
+          ],
         },
       ],
     },
