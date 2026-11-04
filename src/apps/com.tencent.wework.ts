@@ -21,6 +21,11 @@ export default defineGkdApp({
           action: 'clickCenter',
           matches: ['[text*="无效范围"] <<2 * -n [text="刷新"]'],
         },
+        {
+          key: 2,
+          action: 'clickCenter',
+          matches: '@[text="确认"] - * > [text$="请重新运行该事务。"]',
+        },
       ],
     },
     {
