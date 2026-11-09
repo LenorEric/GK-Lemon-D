@@ -10,6 +10,7 @@ export default defineGkdApp({
       desc: '广告即将播放时取消',
       rules: [
         {
+          key: 0,
           matchRoot: true,
           activityIds: [
             'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
@@ -28,6 +29,7 @@ export default defineGkdApp({
       desc: '已经弹出后关闭',
       rules: [
         {
+          key: 0,
           matchRoot: true,
           activityIds: [
             'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
