@@ -6,6 +6,7 @@ export default defineGkdApp({
   groups: [
     {
       key: 0,
+      matchRoot: true,
       name: '全屏广告-视频暂停广告倒计时',
       desc: '广告即将播放时取消',
       rules: [
@@ -23,6 +24,7 @@ export default defineGkdApp({
     },
     {
       key: 1,
+      matchRoot: true,
       name: '全屏广告-视频暂停广告',
       desc: '已经弹出后关闭',
       rules: [
