@@ -6,11 +6,11 @@ export default defineGkdApp({
   groups: [
     {
       key: 0,
-      matchRoot: true,
       name: '全屏广告-视频暂停广告倒计时',
       desc: '广告即将播放时取消',
       rules: [
         {
+          matchRoot: true,
           activityIds: [
             'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
             'com.bilibili.ship.theseus.playlist.UnitedPlaylistActivity',
@@ -24,11 +24,11 @@ export default defineGkdApp({
     },
     {
       key: 1,
-      matchRoot: true,
       name: '全屏广告-视频暂停广告',
       desc: '已经弹出后关闭',
       rules: [
         {
+          matchRoot: true,
           activityIds: [
             'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
             'com.bilibili.ship.theseus.playlist.UnitedPlaylistActivity',
