@@ -12,14 +12,14 @@ importers:
         specifier: 9.39.1
         version: 9.39.1
       '@gkd-kit/api':
-        specifier: 0.8.0
-        version: 0.8.0
+        specifier: 0.9.3
+        version: 0.9.3
       '@gkd-kit/define':
         specifier: 0.0.1
-        version: 0.0.1(@gkd-kit/api@0.8.0)
+        version: 0.0.1(@gkd-kit/api@0.9.3)
       '@gkd-kit/tools':
         specifier: 0.8.0
-        version: 0.8.0(@gkd-kit/api@0.8.0)(json5@2.2.3)
+        version: 0.8.0(@gkd-kit/api@0.9.3)(json5@2.2.3)
       '@types/node':
         specifier: 24.10.1
         version: 24.10.1
@@ -250,8 +250,8 @@ packages:
     resolution: {integrity: sha512-43/qtrDUokr7LJqoF2c3+RInu/t4zfrpYdoSDfYyhg52rwLV6TnOvdG4fXm7IkSB3wErkcmJS9iEhjVtOSEjjA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@gkd-kit/api@0.8.0':
-    resolution: {integrity: sha512-UIVjDQoUWVhPwxfiaQ9aMm1M/vY1G00iO7JZ8yqWlmXoOFwoA5UDSfsY7XB+RPvQTtwdd4F0dC4K5d/5Q+aJSw==}
+  '@gkd-kit/api@0.9.3':
+    resolution: {integrity: sha512-TpN4QImCS8wJRYEvdsH1TYaTYrtZpXpojxRnepgEmXLHZh7Fh+iLCavvs03wiwjGabVC24Ounr06yjb6UV8ePA==}
 
   '@gkd-kit/define@0.0.1':
     resolution: {integrity: sha512-ql/f0TIlBQOSaJS6e9c8B4rLHYWyCzDctP0vRpc6aYaWGJXnZKZIbuTUr2ET45eNzD4dviCjTU6cSv/wcA07IQ==}
@@ -510,6 +510,7 @@ packages:
   eslint@9.39.1:
     resolution: {integrity: sha512-BhHmn2yNOFA9H9JmmIVKJmd288g9hrVRDkdoIgRCRuSySRUHH7r/DI6aAXW9T1WwUuY3DFgrcaqB+deURBLR5g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -1033,17 +1034,17 @@ snapshots:
       '@eslint/core': 0.17.0
       levn: 0.4.1
 
-  '@gkd-kit/api@0.8.0': {}
+  '@gkd-kit/api@0.9.3': {}
 
-  '@gkd-kit/define@0.0.1(@gkd-kit/api@0.8.0)':
+  '@gkd-kit/define@0.0.1(@gkd-kit/api@0.9.3)':
     dependencies:
-      '@gkd-kit/api': 0.8.0
+      '@gkd-kit/api': 0.9.3
 
   '@gkd-kit/selector@0.5.22': {}
 
-  '@gkd-kit/tools@0.8.0(@gkd-kit/api@0.8.0)(json5@2.2.3)':
+  '@gkd-kit/tools@0.8.0(@gkd-kit/api@0.9.3)(json5@2.2.3)':
     dependencies:
-      '@gkd-kit/api': 0.8.0
+      '@gkd-kit/api': 0.9.3
       '@gkd-kit/selector': 0.5.22
       '@gkd-kit/wasm_matches': 0.0.1
       json5: 2.2.3

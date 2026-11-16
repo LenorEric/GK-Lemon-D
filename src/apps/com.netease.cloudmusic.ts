@@ -14,6 +14,12 @@ export default defineGkdApp({
           activityIds: ['.activity.PlayerActivity'],
           matches: '[vid="bottomSheetClose"]',
         },
+        {
+          fastQuery: true,
+          activityIds: ['.music.biz.rn.activity.LayerReactNativeActivity'],
+          matches:
+            '@ViewGroup[clickable=true] - ViewGroup > ViewGroup > [text^="识别您正在使用"]',
+        },
       ],
     },
   ],
