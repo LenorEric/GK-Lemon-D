@@ -22,5 +22,18 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '权限提示-通知权限',
+      desc: '点击取消',
+      rules: [
+        {
+          fastQuery: true,
+          activityIds: ['.activity.MainActivity'],
+          matches:
+            '[vid="title"][text="开启推送通知"] < [vid="titleFrame"] +n [vid="buttonDefaultNegative"][text="取消"][clickable=true]',
+        },
+      ],
+    },
   ],
 });
